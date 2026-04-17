@@ -4,6 +4,7 @@ import HomePage from './Pages/HomePage';
 import LoginPage from './Pages/LoginPage';
 import RegisterPage from './Pages/RegisterPage';
 import Navbar from './Component/navbar';
+import './App.css';
 
 function App() {
   return (
