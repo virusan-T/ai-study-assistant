@@ -123,3 +123,46 @@ body {
   border-color: #6366F1;
   box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
 }
+
+/* Upload page */
+.upload-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.upload-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.upload-subtext {
+  color: #6B7280;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+.upload-box {
+  border: 2px dashed #D1D5DB;
+  border-radius: 12px;
+  padding: 30px 20px;
+  background-color: #F9FAFB;
+  margin-bottom: 20px;
+}
+
+.upload-box input[type="file"] {
+  margin-top: 10px;
+}
+
+.file-name {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #374151;
+  font-weight: 500;
+}
