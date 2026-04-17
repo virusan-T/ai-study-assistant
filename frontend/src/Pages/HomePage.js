@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -9,12 +10,14 @@ function HomePage() {
       <p className="text">
         Learn smarter with AI
       </p>
-
+    <Link to="/login">
       <button className="btn-primary">Login</button>
+    </Link>
+    <Link to="/register">
       <button className="btn-secondary">Register</button>
-
-    </div>
-  );
+    </Link>
+  </div>
+);
 }
 
 export default HomePage;
