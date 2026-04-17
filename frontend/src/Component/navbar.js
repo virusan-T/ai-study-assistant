@@ -12,6 +12,7 @@ function Navbar() {
         <Link to="/login" className="nav-link">Login</Link>
         <Link to="/register" className="nav-link">Register</Link>
         <Link to="/upload" className="nav-link">Upload</Link>
+        <Link to="/chat" className="nav-link">Chat</Link>
       </div>
     </nav>
   );

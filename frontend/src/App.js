@@ -5,6 +5,7 @@ import LoginPage from './Pages/LoginPage';
 import RegisterPage from './Pages/RegisterPage';
 import Navbar from './Component/navbar';
 import UploadPage from './Pages/UploadPage';
+import ChatPage from './Pages/ChatPage';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/upload" element={<UploadPage />} />
+        <Route path="/chat" element={<ChatPage />} />
       </Routes>
     </Router>
   );
